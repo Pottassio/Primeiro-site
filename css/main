@@ -1,0 +1,323 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+ul {
+  padding: 0px !important;
+}
+
+.menu-principal {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+}
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.logo {
+  padding: 16px;
+  width: 70%;
+  float: left;
+}
+.redes-sociais ul li {
+  margin-left: 25px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+.redes-sociais {
+  width: 25%;
+  float: right;
+}
+.header-2 {
+  padding: 16px;
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+}
+.menu-urls {
+  height: 80px;
+  border-bottom: 3px solid #efefef;
+}
+.menu ul li:hover {
+  border-bottom: 3px solid #00bac0;
+}
+.menu ul li a:hover {
+  color: #00bac0;
+}
+.menu ul li {
+  height: 50px;
+  display: inline-block;
+  color: #8b8b8b;
+  margin-left: 15px;
+}
+.menu ul li a {
+  display: inline-block;
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Andale Mono, monospace;
+}
+.menu,
+.conteiner {
+  width: 70%;
+  float: left;
+}
+.busca {
+  text-align: center;
+  width: 30%;
+  float: right;
+}
+.busca input {
+  background-position: 90%;
+  background-image: url("./img/icone-search.png");
+  background-repeat: no-repeat;
+  padding-right: 2px;
+  padding-left: 10px;
+  height: 36px;
+  margin-top: 10px;
+  width: 190px;
+  border: 1px solid #d6d6d6;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  height: 51px;
+  width: 25px;
+  background-color: transparent;
+  background-image: url("./img/Seta esquerda.png");
+  position: absolute;
+  z-index: 1;
+  top: 160px;
+  left: 150px;
+}
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  height: 51px;
+  width: 25px;
+  background-color: transparent;
+  background-image: url("./img/Seta direita.png");
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 160px;
+  right: 150px;
+}
+
+.slider-principal img {
+  margin-top: 2px;
+  width: 100%;
+}
+.slick-initialized {
+  overflow: hidden;
+}
+.slick-dots li button {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  font-size: 0px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background: transparent;
+}
+.slick-dots li {
+  padding-left: 10px;
+  display: inline-block;
+}
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 43%;
+  z-index: 1;
+  bottom: 30px;
+}
+li.slick-active button {
+  background: #00bac6;
+}
+.texto-destaque {
+  text-align: center;
+}
+.texto-destaque p {
+  color: #9a9a9a;
+  font-size: 15px;
+}
+.texto-destaque h1 {
+  margin-top: 30px;
+  margin-right: 10px;
+  color: #818181;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.texto-destaque strong {
+  color: #646464;
+}
+.col-3 {
+  width: 33, 3px;
+  float: left;
+  position: relative;
+  padding-right: 20px;
+}
+.col-5 {
+  float: left;
+  width: 33, 3px;
+  position: relative;
+  margin-left: 85px;
+  padding-right: 20px;
+}
+.bloco-imagem img {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+.bloco-imagem {
+  height: 300px;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+}
+.bloco-imagem b,
+p {
+  text-align: left;
+}
+.bloco-texto {
+  margin-top: 3em;
+}
+
+h3 {
+  font-weight: normal !important;
+}
+
+.bloco-imagens-texto {
+  margin-left: 0px;
+  float: left;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 52px;
+  background: #ffffff;
+  background-image: url("../img/setinha.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bloco-imagens-texto:after {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 70px;
+  background: #eeeeee;
+}
+.col-4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.col-4 img {
+  cursor: pointer;
+  vertical-align: middle;
+  padding-top: 1em;
+  margin: 0px auto;
+}
+.col-4 img:hover {
+  margin-top: 10px !important;
+}
+.bloco-logos {
+  height: 170px;
+}
+.bloco-logos img {
+  margin-top: 50px;
+}
+.footer h3 {
+  text-align: left;
+}
+.footer {
+  background-image: url("../img/footer.png");
+  color: #ffffff;
+}
+.footer-2 {
+  padding: 20px;
+  height: 75px;
+  color: #c1c1c1;
+  background-image: url("../img/footer2.png");
+}
+.footer-2 p {
+  width: 50%;
+  float: left;
+}
+.clock {
+  color: #898989;
+}
+.clock:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../img/clock.png");
+  float: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+.footer p {
+  text-align: left;
+  width: 90%;
+  margin-left: 15px;
+  padding: 5px;
+}
+.position {
+  padding-bottom: 20px;
+  margin-top: none;
+  margin-right: 50px;
+}
+.position-2 {
+  margin-bottom: 25px;
+}
+.local:before,
+.emailico:before,
+.telefoneico:before {
+  content: "";
+  width: 17px;
+  height: 24px;
+  display: inline-block;
+  float: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+.emailico:before {
+  background-image: url(../img/email.png);
+  background-repeat: no-repeat;
+}
+.local:before {
+  background-image: url(../img/local.png);
+  background-repeat: no-repeat;
+}
+.telefoneico:before {
+  background-image: url(../img/telefoneico.png);
+}
+.social ul li {
+  margin-left: 25px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+.social {
+  margin-bottom: 20px;
+  height: 25%;
+  width: 30%;
+  float: right;
+}
